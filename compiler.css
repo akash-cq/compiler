@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+main {
+    padding: 2vw;
+}
+
+.head {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5vw 2vw 1vw 4vw;
+    /* margin-top: 5vw; */
+    width: 40%;
+
+
+}
+
+select {
+    /* height: 2vw; */
+    border-radius: 2vw;
+    border: none;
+    border: 1px solid black;
+}
+
+textarea {
+    padding: 1vw;
+    overflow-y: auto;
+}
+
+.compiler-code {
+    margin-left: 3vw;
+    display: flex;
+}
+
+::placeholder {
+    display: none;
+}
+
+.output {
+    height: 42vw;
+    width: 90vw;
+    background-color: rgb(0, 0, 0);
+    margin-left: 2vw;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    overflow-y: auto;
+}
+.output::-webkit-scrollbar{
+    display: none;
+}
+
+.result {
+    margin-left: 2vw;
+    font-size: 1.5vw;
+}
+
+button {
+    /* margin-left: 10%; */
+    cursor: pointer;
+    padding: 1vw;
+    background-color: whitesmoke;
+    border-radius: 2vw;
+    border: none;
+    border: 1px solid black;
+
+}
+
+i {
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(57, 56, 56);
+    color: whitesmoke;
+    border: 1px solid black;
+
+}
+
+select:hover {
+    background-color: rgb(57, 56, 56);
+    color: whitesmoke;
+}
+
+.hover:hover {
+    background-color: #4b74b2;
+    color: black;
+}
+.lines{
+    /* display: inline; */
+    height: 43.6vw;
+    border: 1px solid black;
+    width: 4vw;
+    overflow-y: auto;
+    background-color: rgba(128, 128, 128,0.5);
+    color: black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.lines::-webkit-scrollbar{
+    display: none;
+}
+.msg-print{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.alert{
+    /* position: absolute; */
+    height: 2w;
+    padding: 1vw;
+    margin-left: 50%;
+    margin-top: 1px;
+    width: 13vw;
+    border-radius: 10px;
+    background-color: green;
+    color: black;
+    display: none;
+
+    /* display: inline-block; */
+    
+}
+img{
+    margin: 2vw;
+}
+.hide{
+    display: none;
+}

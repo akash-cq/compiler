@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Compiler</title>
+    <link rel="stylesheet" href="compiler.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="Screenshot 2024-08-09 210757.png">
+  </head>
+  <body>
+    <div class="msg-print">
+    <h1>Compile Your Code </h1>
+    <div class="msg alert">dfghnjm</div>
+    </div>
+    <main>
+      <div class="head">
+        <p class="length"></p>
+        <i class="fa-solid fa-copy copy"> Copy</i>
+        <i class="fa-solid theme fa-toggle-off"> Theme</i>
+        <button class="compile">Run</button>
+        <button class="clear">Clear</button>
+        <select name="choice" id="">
+          <option value="Python">Python</option>
+          <option value="Javascript">Javascript</option>
+          <option value="C">C</option>
+          <option value="CPP">CPP</option>
+          <option value="Java">Java</option>
+        </select>
+
+      </div>
+      <div class="compiler-code">
+        <div class="lines">
+            <ul>
+            </ul>
+        </div>
+        <textarea class="compiler" id=" codeArea "rows="25" cols="150"></textarea>
+        <div class="output">
+          <p class="loadMsg hide">loading</p>
+         <img src="Rolling@1x-0.9s-200px-200px.gif" class="loading hide" height="60px"></img>
+            <!-- <h1>OUTPUT:</h1> -->
+            <div class="result"></div>
+          </div>
+      </div>
+
+    </main>
+    
+    <script src="compiler.js"></script>
+  </body>
+</html>
